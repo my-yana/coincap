@@ -86,29 +86,21 @@ function Table() {
 	const columns = React.useMemo(
     () => [
       {
-        Header: 'First Name',
-        accessor: 'firstName',
+        Header: 'Coin',
+        accessor: 'coin',
       },
       {
-        Header: 'Last Name',
-        accessor: 'lastName',
+        Header: 'Description',
+        accessor: 'desk',
       },
       {
-        Header: 'Age',
-        accessor: 'age',
+        Header: 'Cost',
+        accessor: 'cost',
       },
       {
-        Header: 'Visits',
-        accessor: 'visits',
-      },
-      {
-        Header: 'Status',
-        accessor: 'status',
-      },
-      {
-        Header: 'Profile Progress',
-        accessor: 'progress',
-      },
+        Header: 'Add',
+        accessor: 'add',
+      }
     ],
     []
   )
